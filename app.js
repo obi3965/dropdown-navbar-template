@@ -2,7 +2,8 @@ const express = require("express");
 const morgan = require("morgan");
 const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
-
+const session = require('express-session');
+const flash = require('req-flash');
 const app = express();
 
 app.use(
@@ -14,6 +15,13 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(cookieParser());
 
+
+app.use(session({
+    secret: 'keyboard cat',
+    resave:false,
+    saveUninitialized:true,
+    cookie: {maxAge: 60000}
+}))
 
 
 app.set("view engine", "ejs");
