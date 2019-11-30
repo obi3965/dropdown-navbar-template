@@ -1,0 +1,95 @@
+.tab-container {
+  width: 100%;
+  margin: 40px auto;
+  height: 80vh !important;
+  /* background:red; */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+li {
+  display: inline-flex;
+}
+a {
+  text-decoration: none;
+  color: #fff !important;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+  border-bottom: 1px solid transparent;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+li a:hover {
+  color: #64DD17 !important;
+}
+
+.nav .active a {
+  color: slateblue !important;
+  border-bottom: 1px solid #fff;
+}
+.nav .active a:hover {
+  border-color: transparent;
+  background: #64DD17 !important;
+  color: white;
+}
+.tab-pane {
+  display: none;
+  height: 60vh;
+}
+
+.tab-pane.active {
+  display: block;
+}
+.nav-link.active{
+  background: #64DD17 !important;
+}
+.course {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.course img {
+  width: 95px;
+  height: 80px;
+}
+.course-items{
+  margin-left: 12px;
+}
+.course-items h4{
+  text-transform: capitalize;
+  color: #fff;
+}
+.course-items span{
+  color: #64DD17;
+  text-transform: capitalize;
+}
+.diploma-link{
+  margin-top: 20px;
+}
+.diploma-link a{
+  color: #64DD17 !important;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  letter-spacing: 1px;
+  transition: all .5s ease-in-out;
+}
+.diploma-link a:hover{
+  color: #fff !important;
+}
+.card-title{
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.card-text{
+  text-align: justify;
+  word-break: break-all;
+}
+.btn-outline-dark{
+  color: #fff;
+  background: #64DD17 !important;
+  border: none !important;
+  margin-left: 100px !important;
+}

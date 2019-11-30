@@ -1,0 +1,24 @@
+<section class="home-newsletter">
+        <div class="container">
+
+            <!-- <% if( typeof subscribe_message != 'undefined'){ %>
+                <p class="subscribe_error_message"><%= subscribe_message %></p>
+            <% } %> -->
+        <div class="row">
+        <div class="col-sm-12">
+            <div class="single">
+                <h2>Subscribe to our Newsletter</h2>
+            <form action="/subscribe" method="POST" class="input-group">
+            
+                 <input type="email" class="form-control" placeholder="Enter your email"
+                 name="email" id="email" 
+                 value="<%= typeof values != 'undefined' ? values.email : '' %>">
+                 <span class="input-group-btn">
+                 <button class="btn btn-theme" type="submit">Subscribe</button>
+                 </span>
+            </form>
+            </div>
+        </div>
+        </div>
+        </div>
+        </section>

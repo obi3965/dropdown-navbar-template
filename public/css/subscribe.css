@@ -1,0 +1,37 @@
+
+    
+    .home-newsletter .single {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2; 
+    
+}
+    .home-newsletter .single h2 {
+    font-size: 22px;
+    color:  #000;
+    text-transform: uppercase;
+    letter-spacing: 1px; 
+}
+    .home-newsletter .single .form-control {
+    height: 50px;
+    background: #fff !important;
+     border: 2px solid #64DD17;
+    border-radius: 25px 0 0 25px; 
+}
+    .home-newsletter .single .form-control:focus {
+    box-shadow: none;
+    border-color: #64DD17 !important; 
+}
+    .home-newsletter .single .btn {
+    min-height: 50px; 
+    border-radius: 0 25px 25px 0;
+    color: #fff;
+    text-transform: uppercase !important;
+    background: #64DD17;
+     }
+
+     .input-group{
+         margin-top: -30px;
+     }

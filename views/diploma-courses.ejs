@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><%= title %></title>
+    <%- include('includes/style.ejs') %>
 </head>
 <body>
-    <h1>diploma courses</h1>
+        <%- include('includes/navbar.ejs') %>
+        <%- include('includes/diploma-courses-banner.ejs') %>
+        <%- include('includes/diploma-courses-content.ejs') %>
+    
+        <%- include('includes/javascript.ejs') %>
 </body>
 </html>

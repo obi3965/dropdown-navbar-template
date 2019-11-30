@@ -12,7 +12,7 @@ module.exports = (app) =>{
     app.get('/diploma-courses', function(req,res,next){
 
         res.render('diploma-courses',{
-            "title":"home"
+            "title":"Diploma-courses"
         })
     })
 
