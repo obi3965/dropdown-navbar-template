@@ -14,7 +14,7 @@ li {
 }
 a {
   text-decoration: none;
-  color: #fff !important;
+  color: #64DD17 !important;
   padding: 10px;
   transition: all 0.3s ease-in-out;
   border-bottom: 1px solid transparent;
@@ -22,7 +22,7 @@ a {
   letter-spacing: 1px;
 }
 li a:hover {
-  color: #64DD17 !important;
+  color: #fff !important;
 }
 
 .nav .active a {
@@ -60,7 +60,7 @@ li a:hover {
 }
 .course-items h4{
   text-transform: capitalize;
-  color: #fff;
+  color: #000;
 }
 .course-items span{
   color: #64DD17;
@@ -92,4 +92,7 @@ li a:hover {
   background: #64DD17 !important;
   border: none !important;
   margin-left: 100px !important;
+  border: none !important;
+  padding: 10px 20px;
+  outline: none !important;
 }
